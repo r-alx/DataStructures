@@ -1,10 +1,23 @@
-card = ["One Piece","Skibidi"]
-#append method to add item in list
+card = ["One Piece","Skibidi","Mini"]
+
 card.append("Naruto")
-## clear method to clear the list
-#card.clear()
-#copy method copy the list 
+card.append("Mini")
+
 copy = card.copy()
 print(copy.count("Naruto"))
 
-print(card, copy)
+print(card)
+
+print(dir(card))
+
+card.extend(["no","yes","???"])
+
+
+print(card)
+
+print("-------------------Älex presentation below--------------------------")
+print(card)
+print(card.index("no"))
+
+card.insert(5,"temp")
+print(card)
