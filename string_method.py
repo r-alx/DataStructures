@@ -1,3 +1,6 @@
-games = ["Minecraft","Free Fire","Play Toghether","hill and steel","blahblah"]
-games.sort(reverse=True)
-print(games)
+text  = "Ac OpycaT"
+print(dir(text))
+print("___________________________________Seprator_______________________________________")
+print(text.istitle())
+
+
