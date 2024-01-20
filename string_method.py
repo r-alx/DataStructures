@@ -15,5 +15,9 @@ b = "tell truth or I use the lie detector"
 text_2 = "@#      text to strip           @@@##@@    "
 # print(text_2.rstrip("@# "))
 # print(text_2.replace("@","%"))
-text_3 = "skip to go ahead"
-print(text_3.rindex("go"))
+text_3 = "SKIp TO GO AHEAd"
+test ="w,h,y,I,l,i,k,e,l,e,a,r,n,i,n,g ,,p,y,t,h,o,n,"
+#print(test.split(","))
+#print(text_3.startswith("skip"))
+#print(text_3.swapcase())
+print(text_3.zfill(30))
