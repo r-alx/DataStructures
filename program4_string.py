@@ -41,8 +41,7 @@ else:
 
 #write a program to get a number form the user and print positve if it greater than zero, negative if its below than zero and print zero if its zero.
 biome =int(input("Enter the num:"))
-if biome > 0:
-    print("biome wins!!!")
+if biome > 0:print("biome wins!!!")
 elif biome < 0:
     print("0 wins!!!")
 else:
